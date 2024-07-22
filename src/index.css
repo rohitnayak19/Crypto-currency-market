@@ -39,6 +39,7 @@ body{
   border-bottom: 1px solid #3c3c3c;
 }
 
+<<<<<<< HEAD
 
 
 @media (max-width: 768px) {
@@ -49,6 +50,8 @@ body{
   }
 }
 
+=======
+>>>>>>> 80e2e18 (first commit)
 .loader {
   position: absolute;
   top: 118%;
