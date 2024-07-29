@@ -78,7 +78,7 @@ useEffect(() => {
         displayCoin.slice(0, 10).map((item, index) => (
           <Link to={`/coin/${item.id}`} className="table-layout cursor-pointer" key={index}>
             <p>{item.market_cap_rank}</p>
-            <div className='flex items-center  gap-1'>
+            <div className='flex items-center gap-1 md:gap-2'>
               <img src={item.image} alt="" className='w-10'/>
               <p>{`${item.name} - ${item.symbol}`}</p>
             </div>
