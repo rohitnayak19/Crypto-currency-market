@@ -78,6 +78,7 @@ const Coin = () => {
         </div>
       </div> : 
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div className="flex flex-col items-center md:flex-row md:justify-center mt-20 gap-10">
       <div className="text-left">
         <img src={coinData.image.large} alt={coinData.name} className="w-24 h-24 object-contain mb-4" />
@@ -86,6 +87,11 @@ const Coin = () => {
       <div className="text-center md:text-left">
         <img src={coinData.image.large} alt={coinData.name} className="w-24 h-24 object-contain mb-4 mx-auto md:mx-0" />
 >>>>>>> 80e2e18 (first commit)
+=======
+      <div className="flex flex-col items-center md:flex-row md:justify-center mt-20 gap-10">
+      <div className="text-left">
+        <img src={coinData.image.large} alt={coinData.name} className="w-24 h-24 object-contain mb-4" />
+>>>>>>> 2e4c855 (changes)
         <p className="text-2xl text-white font-bold mb-2">
           {coinData.name} - {coinData.symbol.toUpperCase()}
         </p>
@@ -100,10 +106,14 @@ const Coin = () => {
         </div>
       </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div className="md:w-1/2">
 =======
       <div className="w-full md:w-1/2">
 >>>>>>> 80e2e18 (first commit)
+=======
+      <div className="md:w-1/2">
+>>>>>>> 2e4c855 (changes)
         <LineChart historicalData={historicalData} />
       </div>
     </div>}
