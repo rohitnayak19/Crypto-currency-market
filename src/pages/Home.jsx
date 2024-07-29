@@ -109,6 +109,9 @@ useEffect(() => {
           <Link to={`/coin/${item.id}`} className="table-layout cursor-pointer" key={index}>
             <p>{item.market_cap_rank}</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7e47e6f (initial update)
             <div className='flex items-center gap-1 md:gap-2'>
               <img src={item.image} alt="" className='w-10'/>
               <p>{`${item.name} - ${item.symbol}`}</p>
