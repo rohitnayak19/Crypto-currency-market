@@ -39,7 +39,6 @@ body{
   border-bottom: 1px solid #3c3c3c;
 }
 
-<<<<<<< HEAD
 
 
 @media (max-width: 768px) {
@@ -50,8 +49,6 @@ body{
   }
 }
 
-=======
->>>>>>> 6dfcc5b9582120b321041823c34cfa7959326eaa
 .loader {
   position: absolute;
   top: 118%;
