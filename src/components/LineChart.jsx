@@ -78,18 +78,8 @@ const LineChart = ({ historicalData }) => {
   }, [historicalData]);
 
   return (
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <div className="rounded-sm cursor-pointer bg-gray-200 md:w-full"> {/* Container background color (white) */}
+    <div className="rounded-sm cursor-pointer bg-gray-200 w-full shadow-lg">
       <Line data={chartData} options={chartOptions}/>
-=======
-    <div className="rounded-sm cursor-pointer bg-gray-200 w-full h-[270px] md:h-[350px] p-4 shadow-lg"> {/* Container background color (white) */}
-      <Line data={chartData} options={chartOptions} />
->>>>>>> 80e2e18 (first commit)
-=======
-    <div className="rounded-sm cursor-pointer bg-gray-200 md:w-full"> {/* Container background color (white) */}
-      <Line data={chartData} options={chartOptions}/>
->>>>>>> 2e4c855 (changes)
     </div>
   );
 };

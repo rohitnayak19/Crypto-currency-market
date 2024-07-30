@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4 px-4 md:px-8 lg:px-12">
           <div className="flex items-center">
             <NavLink to={'/'}>
-              <img src={cryptoImage} alt="Crypto Logo" className="" />
+              <img src={cryptoImage} alt="Crypto Logo" className="w-40"/>
             </NavLink>
             <div className="hidden md:flex gap-5 font-semibold ml-8">
               <NavLink className={({ isActive }) => `${isActive ? "text-sky-400 text-lg" : "text-lg transition duration-75 ease-in-out delay-75 hover:text-sky-400 block"}`} to={'/'}>Home</NavLink>
@@ -42,14 +42,12 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <select onChange={currencyHandler} className='text-sm md:text-base rounded-md p-1 md:p-2 bg-transparent border border-gray-300 outline-none cursor-pointer'>
-            <select onChange={currencyHandler} className='rounded-md p-2 bg-transparent border border-gray-300 outline-none cursor-pointer'>
+            <select onChange={currencyHandler} className='text-sm md:text-base  p-1 md:p-2 rounded-sm bg-transparent border border-gray-300 outline-none cursor-pointer'>
               <option value="usd" className='bg-zinc-800'>USD</option>
               <option value="eur" className='bg-zinc-800'>EURO</option>
               <option value="inr" className='bg-zinc-800'>INR</option>
             </select>
-            <button className='bg-white text-zinc-700 text-sm md:text-base font-semibold flex items-center gap-1 p-1 md:p-2 rounded-md transition duration-75 ease-in-out delay-75 hover:text-sky-600'>
-            <button className='bg-white text-zinc-700 font-semibold flex items-center gap-1 p-2 rounded-md transition duration-75 ease-in-out delay-75 hover:text-sky-600'>
+            <button className='bg-white text-zinc-700 font-semibold text-sm md:text-base p-1 md:p-2 rounded-sm transition duration-75 ease-in-out delay-75 hover:text-sky-600'>
               Sign in
             </button>
             <button className="md:hidden p-2" onClick={toggleMenu}>
