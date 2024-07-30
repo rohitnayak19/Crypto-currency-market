@@ -42,36 +42,14 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex items-center gap-2">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             <select onChange={currencyHandler} className='text-sm md:text-base rounded-md p-1 md:p-2 bg-transparent border border-gray-300 outline-none cursor-pointer'>
-=======
             <select onChange={currencyHandler} className='rounded-md p-2 bg-transparent border border-gray-300 outline-none cursor-pointer'>
->>>>>>> 6dfcc5b9582120b321041823c34cfa7959326eaa
-=======
-            <select onChange={currencyHandler} className='rounded-md p-2 bg-transparent border border-gray-300 outline-none cursor-pointer'>
->>>>>>> 80e2e18 (first commit)
-=======
-            <select onChange={currencyHandler} className='text-sm md:text-base rounded-md p-1 md:p-2 bg-transparent border border-gray-300 outline-none cursor-pointer'>
->>>>>>> 2e4c855 (changes)
               <option value="usd" className='bg-zinc-800'>USD</option>
               <option value="eur" className='bg-zinc-800'>EURO</option>
               <option value="inr" className='bg-zinc-800'>INR</option>
             </select>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             <button className='bg-white text-zinc-700 text-sm md:text-base font-semibold flex items-center gap-1 p-1 md:p-2 rounded-md transition duration-75 ease-in-out delay-75 hover:text-sky-600'>
-=======
             <button className='bg-white text-zinc-700 font-semibold flex items-center gap-1 p-2 rounded-md transition duration-75 ease-in-out delay-75 hover:text-sky-600'>
->>>>>>> 6dfcc5b9582120b321041823c34cfa7959326eaa
-=======
-            <button className='bg-white text-zinc-700 font-semibold flex items-center gap-1 p-2 rounded-md transition duration-75 ease-in-out delay-75 hover:text-sky-600'>
->>>>>>> 80e2e18 (first commit)
-=======
-            <button className='bg-white text-zinc-700 text-sm md:text-base font-semibold flex items-center gap-1 p-1 md:p-2 rounded-md transition duration-75 ease-in-out delay-75 hover:text-sky-600'>
->>>>>>> 2e4c855 (changes)
               Sign in
             </button>
             <button className="md:hidden p-2" onClick={toggleMenu}>
